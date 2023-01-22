@@ -18,3 +18,14 @@ h1 {
   transform: scale(1.5) rotate(15deg);
 }
 
+.hidden {
+  display: none;
+}
+.hidden img {
+  display: block;
+  margin: 0 auto;
+}
+
+.hidden h1 {
+  font-size: 1.5rem;
+}
