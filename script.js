@@ -177,7 +177,7 @@ const isDesktop = window.innerWidth > 768 && window.innerHeight > 1024;
 const hasPlayedBefore = document.cookie === "dontCheatLOL2=true";
 const answer = Math.floor(Math.random() * 2 + 1);
 console.log(answer);
-if (document.cookie) {
+if (hasPlayedBefore) {
   document.body.innerHTML = "<h1>Try harder next year 🤭🤭</h1>";
 } else {
   packets.forEach(packet =>
