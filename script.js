@@ -175,7 +175,6 @@ const isDesktop = window.innerWidth > 768 && window.innerHeight > 1024;
 // Lol don't cheat
 
 const hasPlayedBefore = document.cookie;
-hasPlayedBefore = false;
 if (hasPlayedBefore) {
   document.body.innerHTML = "<h1>Try harder next year 🤭🤭</h1>";
 } else {
