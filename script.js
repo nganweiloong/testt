@@ -181,6 +181,7 @@ if (document.cookie) {
   packets.forEach(packet =>
     packet.addEventListener("click", () => {
       document.cookie = "dontCheatLOL=true";
+      document.body.innerHTML = "<h1>Try harder next year 🤭🤭</h1>";
       window.location.href =
         packet.dataset.angpau === "1"
           ? "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
