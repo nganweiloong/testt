@@ -184,8 +184,8 @@ if (hasPlayedBefore) {
     packet.addEventListener("click", () => {
       document.cookie = "dontCheatLOL2=true";
       if (+packet.dataset.angpau === answer) {
-        window.location.href =
-          "https://link.tngdigital.com.my/3BEHBtqrEVGWxUtA6";
+        // window.location.href =
+        // "https://link.tngdigital.com.my/3BEHBtqrEVGWxUtA6";
         document.body.innerHTML = "<h1>Congratzzz 🤭🤭</h1>";
       } else {
         renderCat();
